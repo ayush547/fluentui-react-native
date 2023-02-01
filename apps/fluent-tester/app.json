@@ -4,7 +4,15 @@
   "singleApp": "fluent-tester",
   "components": [{ "appKey": "FluentTester", "displayName": "Fluent Tester", "slug": "fluent-tester" }],
   "android": {
-    "icons": "assets/res"
+    "icons": "assets/res",
+    "versionCode": 10,
+    "signingConfigs": {
+      "release": {
+        "storeFile": "android/app/myKey.keystore",
+        "storePassword": "123456",
+        "keyAlias": "test"
+      }
+    }
   },
   "ios": {
     "icons": {
