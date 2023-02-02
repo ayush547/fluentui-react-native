@@ -10,7 +10,8 @@
       "release": {
         "storeFile": "android/app/myKey.keystore",
         "storePassword": "123456",
-        "keyAlias": "test"
+        "keyAlias": "test",
+        "keyPassword": "123456"
       }
     }
   },
