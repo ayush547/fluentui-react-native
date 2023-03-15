@@ -1,6 +1,8 @@
 import * as React from 'react';
+
 import { useSelectedKey } from '@fluentui-react-native/interactive-hooks';
-import { TabsProps, TabsState, TabsInfo } from './Tabs.types';
+
+import type { TabsProps, TabsState, TabsInfo } from './Tabs.types';
 
 /**
  * Re-usable hook for Tabs.
@@ -13,6 +15,7 @@ export const useTabs = (props: TabsProps): TabsInfo => {
   const defaultComponentRef = React.useRef(null);
   const focusZoneRef = React.useRef(null);
   const {
+    accessible,
     componentRef = defaultComponentRef,
     selectedKey,
     getTabId,
@@ -53,7 +56,7 @@ export const useTabs = (props: TabsProps): TabsInfo => {
   return {
     props: {
       ...props,
-      accessible: true,
+      accessible: accessible ?? true,
       accessibilityRole: 'tablist',
       componentRef: componentRef,
       isCircularNavigation: isCircularNavigation ?? false,

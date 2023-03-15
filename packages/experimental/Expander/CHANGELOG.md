@@ -1,8 +1,84 @@
 # Change Log - @fluentui-react-native/experimental-expander
 
-This log was last generated on Mon, 30 Jan 2023 07:12:38 GMT and should not be manually modified.
+This log was last generated on Tue, 14 Mar 2023 20:50:45 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 0.5.23
+
+Tue, 14 Mar 2023 20:50:45 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/framework to v0.9.6
+
+## 0.5.22
+
+Tue, 07 Mar 2023 20:54:15 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/framework to v0.9.5
+
+## 0.5.21
+
+Fri, 03 Mar 2023 06:47:26 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/framework to v0.9.4
+
+## 0.5.20
+
+Fri, 24 Feb 2023 20:39:58 GMT
+
+### Patches
+
+- Order imports (78454019+lyzhan7@users.noreply.github.com)
+- Bump @fluentui-react-native/component-cache to v1.4.4
+- Bump @fluentui-react-native/framework to v0.9.3
+
+## 0.5.19
+
+Fri, 24 Feb 2023 02:22:40 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/framework to v0.9.2
+
+## 0.5.18
+
+Sat, 11 Feb 2023 01:32:30 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/framework to v0.9.1
+
+## 0.5.17
+
+Fri, 03 Feb 2023 01:49:36 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/framework to v0.9.0
+
+## 0.5.16
+
+Thu, 02 Feb 2023 01:29:38 GMT
+
+### Patches
+
+- Add eslint to packages missing a config (30809111+acoates-ms@users.noreply.github.com)
+- Bump @fluentui-react-native/framework to v0.8.39
+
+## 0.5.15
+
+Wed, 01 Feb 2023 22:33:17 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/component-cache to v1.4.3
+- Bump @fluentui-react-native/framework to v0.8.38
 
 ## 0.5.14
 

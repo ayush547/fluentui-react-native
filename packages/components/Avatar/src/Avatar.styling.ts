@@ -1,19 +1,19 @@
-import {
-  AvatarName,
+import { Platform } from 'react-native';
+
+import type { Theme, UseStylingOptions } from '@fluentui-react-native/framework';
+import { buildProps } from '@fluentui-react-native/framework';
+import { borderStyles, fontStyles } from '@fluentui-react-native/tokens';
+
+import type {
   AvatarTokens,
   AvatarConfigurableProps,
   AvatarSlotProps,
   AvatarProps,
-  AvatarColors,
-  AvatarSizesForTokens,
   AvatarNamedColor,
-  ColorSchemes,
   AvatarColorSchemes,
 } from './Avatar.types';
-import { Platform } from 'react-native';
-import { Theme, UseStylingOptions, buildProps } from '@fluentui-react-native/framework';
+import { AvatarName, AvatarColors, AvatarSizesForTokens, ColorSchemes } from './Avatar.types';
 import { defaultAvatarTokens } from './AvatarTokens';
-import { borderStyles, fontStyles } from '@fluentui-react-native/tokens';
 import { getRingConfig, getRingSpacing, getIconStyles } from './stylingUtils';
 
 export const avatarStates: (keyof AvatarTokens)[] = [
@@ -88,7 +88,6 @@ export const stylingSettings: UseStylingOptions<AvatarProps, AvatarSlotProps, Av
           !avatarColor || AvatarColors.includes(avatarColor as AvatarNamedColor) || ColorSchemes.includes(avatarColor as AvatarColorSchemes)
             ? backgroundColor
             : avatarColor;
-
         return {
           style: {
             ...borderStyles.from(tokens, theme),
@@ -172,7 +171,6 @@ export const stylingSettings: UseStylingOptions<AvatarProps, AvatarSlotProps, Av
               minWidth: ringConfig.size,
               minHeight: ringConfig.size,
               ...borderStyles.from(tokens, theme),
-
               backgroundColor: ringBackgroundColor || 'transparent',
             },
           };
@@ -187,9 +185,12 @@ export const stylingSettings: UseStylingOptions<AvatarProps, AvatarSlotProps, Av
           status: tokens.badgeStatus,
           position: 'absolute',
           outOfOffice: tokens.outOfOffice,
+          // badgeX and badgeY, when present, override the default badge position picked from presenceBadge tokens. This check prevents unnecessary overrides.
+          right: tokens.badgeX !== undefined ? tokens.badgeX : undefined,
+          bottom: tokens.badgeY !== undefined ? tokens.badgeY : undefined,
         };
       },
-      ['badgeSize', 'badgeStatus'],
+      ['badgeSize', 'badgeStatus', 'badgeX', 'badgeY', 'outOfOffice'],
     ),
   },
 };

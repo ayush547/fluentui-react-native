@@ -1,4 +1,6 @@
-import { TextProps, ViewProps } from 'react-native';
+import type { Animated, TextProps, ViewProps } from 'react-native';
+
+import type { SvgProps } from 'react-native-svg';
 
 export const spinnerName = 'Spinner';
 /**
@@ -12,7 +14,7 @@ export type SpinnerLabelPosition = 'above' | 'below' | 'before' | 'after';
 /**
  * Specifies the possible sizes of the Spinner.
  */
-export type SpinnerSize = 'tiny' | 'x-small' | 'small' | 'medium' | 'large' | 'x-large' | 'huge';
+export type SpinnerSize = 'tiny' | 'xx-small' | 'x-small' | 'small' | 'medium' | 'large' | 'x-large' | 'huge';
 /**
  * Specifies the possible status of the Spinner.
  */
@@ -25,6 +27,7 @@ export interface SpinnerTokens {
   trackColor?: string;
   /**
    * Spinner element color
+   * Note: This is not supported on mobile platforms
    */
   tailColor?: string;
   /**
@@ -38,11 +41,13 @@ export interface SpinnerProps extends ViewProps, SpinnerTokens {
   /**
    * Spinner appearnace
    * @defaultValue 'primary'
+   * Note: This is not supported on mobile platforms
    */
   appearance?: SpinnerAppearance;
   /**
    * Spinner label position
    * @defaultValue 'after'
+   * Note: This is not supported on mobile platforms
    */
   labelPosition?: SpinnerLabelPosition;
   /**
@@ -55,11 +60,17 @@ export interface SpinnerProps extends ViewProps, SpinnerTokens {
    * @defaultValue 'active'
    */
   status?: SpinnerStatus;
-  S;
   /**
    * Spinner label
+   * Note: This is not supported on mobile platforms
    */
   label?: string;
+  /**
+   * Spinner hidden when not animating or not hidden
+   * @defaultValue 'true'
+   * @platform android
+   */
+  hidesWhenStopped?: boolean;
 }
 
 export interface SpinnerSvgProps extends SpinnerTokens {
@@ -72,11 +83,12 @@ export interface SpinnerSvgProps extends SpinnerTokens {
 }
 
 export interface SpinnerSlotProps {
-  root: ViewProps;
-  track: SpinnerSvgProps;
-  tail: SpinnerSvgProps;
-  tailContainer: SpinnerSvgProps;
+  root: SpinnerProps; //SpinnerProps extends ViewProps which is required for win32 native module.
+  track?: SpinnerSvgProps;
+  tail?: SpinnerSvgProps;
+  tailContainer?: SpinnerSvgProps;
   label?: TextProps;
+  svg?: Animated.AnimatedProps<SvgProps>;
 }
 export interface SpinnerType {
   props: SpinnerProps;

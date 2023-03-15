@@ -1,8 +1,127 @@
 # Change Log - @fluentui-react-native/experimental-shadow
 
-This log was last generated on Mon, 30 Jan 2023 07:12:38 GMT and should not be manually modified.
+This log was last generated on Tue, 14 Mar 2023 20:50:45 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 0.2.76
+
+Tue, 14 Mar 2023 20:50:45 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/framework to v0.9.6
+- Bump @fluentui-react-native/pressable to v0.9.64
+- Bump @fluentui-react-native/theme-types to v0.31.0
+
+## 0.2.75
+
+Tue, 07 Mar 2023 20:54:15 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/framework to v0.9.5
+- Bump @fluentui-react-native/pressable to v0.9.63
+
+## 0.2.74
+
+Sat, 04 Mar 2023 00:02:26 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/pressable to v0.9.62
+
+## 0.2.73
+
+Fri, 03 Mar 2023 06:47:26 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/framework to v0.9.4
+- Bump @fluentui-react-native/pressable to v0.9.61
+- Bump @fluentui-react-native/theme-types to v0.30.4
+
+## 0.2.72
+
+Tue, 28 Feb 2023 21:34:10 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/pressable to v0.9.60
+
+## 0.2.71
+
+Fri, 24 Feb 2023 23:53:36 GMT
+
+### Patches
+
+- Update shadow component to only set a style prop if it is defined (78454019+lyzhan7@users.noreply.github.com)
+
+## 0.2.70
+
+Fri, 24 Feb 2023 20:39:58 GMT
+
+### Patches
+
+- Order imports (78454019+lyzhan7@users.noreply.github.com)
+- Bump @fluentui-react-native/framework to v0.9.3
+- Bump @fluentui-react-native/pressable to v0.9.59
+- Bump @fluentui-react-native/theme-types to v0.30.3
+
+## 0.2.69
+
+Fri, 24 Feb 2023 02:22:40 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/framework to v0.9.2
+- Bump @fluentui-react-native/pressable to v0.9.58
+
+## 0.2.68
+
+Tue, 14 Feb 2023 22:22:51 GMT
+
+### Patches
+
+- Copy Android tokens to iOS (saadnajmi2@gmail.com)
+
+## 0.2.67
+
+Sat, 11 Feb 2023 01:32:30 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/framework to v0.9.1
+- Bump @fluentui-react-native/pressable to v0.9.57
+
+## 0.2.66
+
+Fri, 03 Feb 2023 01:49:36 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/framework to v0.9.0
+- Bump @fluentui-react-native/pressable to v0.9.56
+
+## 0.2.65
+
+Thu, 02 Feb 2023 01:29:39 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/framework to v0.8.39
+- Bump @fluentui-react-native/pressable to v0.9.55
+
+## 0.2.64
+
+Wed, 01 Feb 2023 22:33:15 GMT
+
+### Patches
+
+- Enable @typescript-eslint/consistent-type-imports (30809111+acoates-ms@users.noreply.github.com)
+- Bump @fluentui-react-native/framework to v0.8.38
+- Bump @fluentui-react-native/pressable to v0.9.54
+- Bump @fluentui-react-native/theme-types to v0.30.2
 
 ## 0.2.63
 

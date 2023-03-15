@@ -1,8 +1,118 @@
 # Change Log - @fluentui-react-native/icon
 
-This log was last generated on Mon, 30 Jan 2023 07:12:38 GMT and should not be manually modified.
+This log was last generated on Tue, 14 Mar 2023 20:50:45 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 0.17.20
+
+Tue, 14 Mar 2023 20:50:45 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/framework to v0.9.6
+- Bump @fluentui-react-native/text to v0.19.27
+
+## 0.17.19
+
+Tue, 07 Mar 2023 20:54:15 GMT
+
+### Patches
+
+- Fix icon styling (ruaraki@microsoft.com)
+- Bump @fluentui-react-native/framework to v0.9.5
+- Bump @fluentui-react-native/text to v0.19.26
+
+## 0.17.18
+
+Sat, 04 Mar 2023 00:02:26 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/text to v0.19.25
+
+## 0.17.17
+
+Fri, 03 Mar 2023 06:47:26 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/framework to v0.9.4
+- Bump @fluentui-react-native/text to v0.19.24
+
+## 0.17.16
+
+Thu, 02 Mar 2023 19:11:57 GMT
+
+### Patches
+
+- Change icon to accept color and size to make it more compatible to styling (ruaraki@microsoft.com)
+
+## 0.17.15
+
+Tue, 28 Feb 2023 21:34:10 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/text to v0.19.23
+
+## 0.17.14
+
+Fri, 24 Feb 2023 20:39:58 GMT
+
+### Patches
+
+- Order imports (78454019+lyzhan7@users.noreply.github.com)
+- Bump @fluentui-react-native/adapters to v0.10.2
+- Bump @fluentui-react-native/framework to v0.9.3
+- Bump @fluentui-react-native/text to v0.19.22
+
+## 0.17.13
+
+Fri, 24 Feb 2023 02:22:40 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/framework to v0.9.2
+- Bump @fluentui-react-native/text to v0.19.21
+
+## 0.17.12
+
+Sat, 11 Feb 2023 01:32:30 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/framework to v0.9.1
+- Bump @fluentui-react-native/text to v0.19.20
+
+## 0.17.11
+
+Fri, 03 Feb 2023 01:49:36 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/framework to v0.9.0
+- Bump @fluentui-react-native/text to v0.19.19
+
+## 0.17.10
+
+Thu, 02 Feb 2023 01:29:39 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/framework to v0.8.39
+- Bump @fluentui-react-native/text to v0.19.18
+
+## 0.17.9
+
+Wed, 01 Feb 2023 22:33:15 GMT
+
+### Patches
+
+- Enable @typescript-eslint/consistent-type-imports (30809111+acoates-ms@users.noreply.github.com)
+- Bump @fluentui-react-native/adapters to v0.10.1
+- Bump @fluentui-react-native/framework to v0.8.38
+- Bump @fluentui-react-native/text to v0.19.17
 
 ## 0.17.8
 

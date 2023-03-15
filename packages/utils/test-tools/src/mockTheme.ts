@@ -1,4 +1,4 @@
-import { Theme } from '@fluentui-react-native/theme-types';
+import type { Theme } from '@fluentui-react-native/theme-types';
 
 const black = 'black';
 const neutralDark = '#201f1e';
@@ -158,7 +158,15 @@ export const mockTheme: Theme = {
   typography: {
     sizes: { caption: 10, secondary: 12, body: 14, subheader: 16, header: 20, hero: 28, heroLarge: 42 },
     weights: { regular: '400', semiBold: '600' },
-    families: { primary: 'Segoe UI', secondary: 'System', cursive: 'System', monospace: 'System', sansSerif: 'System', serif: 'System' },
+    families: {
+      primary: 'Segoe UI',
+      secondary: 'System',
+      cursive: 'System',
+      monospace: 'System',
+      numeric: 'System',
+      sansSerif: 'System',
+      serif: 'System',
+    },
     variants: {
       captionStandard: { face: 'primary', size: 'caption', weight: 'regular' },
       secondaryStandard: { face: 'primary', size: 'secondary', weight: 'regular' },

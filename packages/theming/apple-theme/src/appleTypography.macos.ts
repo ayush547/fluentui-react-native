@@ -1,4 +1,4 @@
-import { FontSize, FontSizes, FontWeightValue, Typography, Variants } from '@fluentui-react-native/theme-types';
+import type { FontSize, FontSizes, FontWeightValue, Typography, Variants } from '@fluentui-react-native/theme-types';
 
 /**
  * The Typography is designed to match the styles defined in the Apple HIG:
@@ -34,6 +34,7 @@ export function fallbackAppleTypography(): Typography {
       secondary: 'System',
       cursive: 'System',
       monospace: 'System',
+      numeric: 'System',
       sansSerif: 'System',
       serif: 'System',
     },

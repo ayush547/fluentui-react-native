@@ -16,7 +16,8 @@
 ## Running the App
 
 1. Run `yarn` from the root of the repo
-2. From this directory, simply `yarn windows`
+2. From this directory, run `yarn install-windows-test-app`
+3. From this directory, simply `yarn windows`
 
 ## Debugging
 
@@ -30,26 +31,17 @@ You can debug native code in Visual Studio. To debug javascript code, you can ei
 ## Dependencies
 
 Dependencies are managed by
-[`@rnx-kit/dep-check`](https://github.com/microsoft/rnx-kit/tree/main/packages/dep-check).
-If you're looking to upgrade `react-native`, look for the `rnx-kit` section in
-`/apps/windows/package.json`:
+[`@rnx-kit/align-deps`](https://github.com/microsoft/rnx-kit/tree/main/packages/align-deps).
+If you're looking to upgrade `react-native`, use the interactive upgrade command:
 
-```json
-{
-  ...
-  "rnx-kit": {
-    "reactNativeVersion": "^0.68",
-    "kitType": "app",
-    "bundle": {
-  ...
-}
+```sh
+yarn rnx-align-deps --set-version
 ```
 
-Bump `reactNativeVersion`, and run `yarn rnx-dep-check --write`. This command
-will ensure that all relevant packages are bumped correctly.
+This command will ensure that all relevant packages are bumped correctly.
 
 You can read more about this tool here:
-[`@rnx-kit/dep-check` design document](https://github.com/microsoft/rnx-kit/blob/main/docsite/docs/architecture/dependency-management.md)
+[`@rnx-kit/align-deps` design document](https://github.com/microsoft/rnx-kit/blob/main/docsite/docs/architecture/dependency-management.md)
 
 ## Troubleshooting
 

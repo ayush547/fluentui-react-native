@@ -1,7 +1,10 @@
-import { Theme, UseStylingOptions, buildProps } from '@fluentui-react-native/framework';
+import type { Theme, UseStylingOptions } from '@fluentui-react-native/framework';
+import { buildProps } from '@fluentui-react-native/framework';
 import { borderStyles, fontStyles, layoutStyles } from '@fluentui-react-native/tokens';
+
+import type { MenuItemProps, MenuItemTokens, MenuItemSlotProps } from './MenuItem.types';
+import { menuItemName } from './MenuItem.types';
 import { defaultMenuItemTokens } from './MenuItemTokens';
-import { menuItemName, MenuItemProps, MenuItemTokens, MenuItemSlotProps } from './MenuItem.types';
 
 export const menuItemStates: (keyof MenuItemTokens)[] = ['hovered', 'focused', 'pressed', 'disabled'];
 
@@ -44,17 +47,35 @@ export const stylingSettings: UseStylingOptions<MenuItemProps, MenuItemSlotProps
       },
       ['color', ...fontStyles.keys],
     ),
+    iconPlaceholder: buildProps(
+      (tokens: MenuItemTokens) => ({
+        style: {
+          minHeight: tokens.iconSize,
+          minWidth: tokens.iconSize,
+          alignItems: 'center',
+          justifyContent: 'center',
+          marginEnd: tokens.gap,
+        },
+      }),
+      ['checkmarkSize', 'gap'],
+    ),
+    imgIcon: buildProps(
+      (tokens: MenuItemTokens) => ({
+        style: { tintColor: tokens.iconColor, height: tokens.iconSize, width: tokens.iconSize },
+      }),
+      ['gap', 'iconColor', 'iconSize'],
+    ),
+    fontOrSvgIcon: buildProps(
+      (tokens: MenuItemTokens) => ({ color: tokens.iconColor, size: tokens.iconSize }),
+      ['gap', 'iconColor', 'iconSize'],
+    ),
     submenuIndicator: buildProps(
       (tokens: MenuItemTokens) => {
         return {
           color: tokens.submenuIndicatorColor,
           height: tokens.submenuIndicatorSize,
           width: tokens.submenuIndicatorSize,
-          viewBox:
-            '0 0 ' +
-            (tokens.submenuIndicatorSize - tokens.submenuIndicatorPadding * 2) +
-            ' ' +
-            (tokens.submenuIndicatorSize - tokens.submenuIndicatorPadding * 2),
+          viewBox: `0 0 ${tokens.submenuIndicatorSize} ${tokens.submenuIndicatorSize}`,
         };
       },
       ['submenuIndicatorColor', 'submenuIndicatorPadding', 'submenuIndicatorSize'],

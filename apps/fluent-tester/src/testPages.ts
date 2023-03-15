@@ -1,4 +1,4 @@
-import { TestDescription } from './TestComponents';
+import type { TestDescription } from './TestComponents';
 import { ActivityIndicatorTest } from './TestComponents/ActivityIndicator';
 import { AvatarTest, NativeAvatarTest } from './TestComponents/Avatar';
 import { BadgeTest } from './TestComponents/Badge';
@@ -9,7 +9,7 @@ import { CheckboxV1Test } from './TestComponents/CheckboxV1';
 import { ColorTokensTest } from './TestComponents/ColorTokens';
 import { ContextualMenuTest } from './TestComponents/ContextualMenu';
 import { CornerRadiusTokensTest } from './TestComponents/CornerRadius';
-import { NativeDatePickerTest, HOMEPAGE_NATIVEDATEPICKER_BUTTON } from './TestComponents/NativeDatePicker';
+import { DividerTest } from './TestComponents/Divider';
 import { DropdownTest, HOMEPAGE_DROPDOWN_BUTTON } from './TestComponents/Dropdown';
 // import { DrawerTest, Constants.HOMEPAGE_DRAWER_BUTTON } from './TestComponents/Drawer';
 // import { ExpanderTest, Constants.HOMEPAGE_EXPANDER_BUTTON } from './TestComponents/Expander';
@@ -21,6 +21,7 @@ import { LinkV1Test } from './TestComponents/LinkV1';
 import { MenuTest } from './TestComponents/Menu';
 import { MenuButtonLegacyTest } from './TestComponents/MenuButtonLegacy';
 import { MenuButtonV1Test } from './TestComponents/MenuButtonV1';
+import { NativeDatePickerTest, HOMEPAGE_NATIVEDATEPICKER_BUTTON } from './TestComponents/NativeDatePicker';
 import { NotificationTest, HOMEPAGE_NOTIFICATION_BUTTON } from './TestComponents/Notification';
 import { PersonaTest } from './TestComponents/Persona';
 import { PersonaCoinTest } from './TestComponents/PersonaCoin';
@@ -31,6 +32,7 @@ import { SeparatorTest } from './TestComponents/Separator';
 import { ShadowTest } from './TestComponents/Shadow';
 import { ShimmerTest } from './TestComponents/Shimmer';
 import { SpacingTokensTest } from './TestComponents/Spacing';
+import { SpinnerTest } from './TestComponents/Spinner';
 import { StrokeWidthTest } from './TestComponents/StrokeWidth';
 import { SvgTest, RNSVGIconsTest } from './TestComponents/Svg';
 import { SwitchTest } from './TestComponents/Switch';
@@ -113,6 +115,12 @@ export const tests: TestDescription[] = [
     component: NativeDatePickerTest,
     testPageButton: HOMEPAGE_NATIVEDATEPICKER_BUTTON,
     platforms: ['ios'],
+  },
+  {
+    name: 'Divider',
+    component: DividerTest,
+    testPageButton: Constants.HOMEPAGE_DIVIDER_BUTTON,
+    platforms: ['android', 'ios', 'macos', 'win32', 'windows'],
   },
   {
     name: 'Dropdown',
@@ -215,7 +223,7 @@ export const tests: TestDescription[] = [
     name: 'RadioGroup V1',
     component: RadioGroupV1Test,
     testPageButton: Constants.HOMEPAGE_RADIOGROUPV1_BUTTON,
-    platforms: ['android', 'macos', 'win32'],
+    platforms: ['android', 'ios', 'macos', 'win32'],
   },
   {
     name: 'Separator',
@@ -240,6 +248,12 @@ export const tests: TestDescription[] = [
     component: SpacingTokensTest,
     testPageButton: Constants.HOMEPAGE_SPACING_BUTTON,
     platforms: ['android', 'ios', 'macos', 'win32', 'windows'],
+  },
+  {
+    name: 'Spinner V1',
+    component: SpinnerTest,
+    testPageButton: Constants.HOMEPAGE_SPINNER_BUTTON,
+    platforms: ['android'],
   },
   {
     name: 'Stroke Width Tokens',

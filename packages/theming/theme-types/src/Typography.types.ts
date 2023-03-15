@@ -1,4 +1,4 @@
-import { TextStyle } from 'react-native';
+import type { TextStyle } from 'react-native';
 
 /**
  * A font family designation, made up of one or more font names or groupings
@@ -28,6 +28,7 @@ export interface FontFamilies {
   secondary: FontFamilyValue;
   cursive: FontFamilyValue;
   monospace: FontFamilyValue;
+  numeric: FontFamilyValue;
   sansSerif: FontFamilyValue;
   serif: FontFamilyValue;
 }

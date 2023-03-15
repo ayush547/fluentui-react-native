@@ -1,8 +1,137 @@
 # Change Log - @fluentui-react-native/callout
 
-This log was last generated on Mon, 30 Jan 2023 07:12:38 GMT and should not be manually modified.
+This log was last generated on Tue, 14 Mar 2023 20:50:45 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 0.23.8
+
+Tue, 14 Mar 2023 20:50:45 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/interactive-hooks to v0.22.25
+- Bump @fluentui-react-native/tokens to v0.20.12
+- Bump @uifabricshared/foundation-compose to v1.13.6
+
+## 0.23.7
+
+Tue, 07 Mar 2023 20:54:15 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/interactive-hooks to v0.22.24
+- Bump @uifabricshared/foundation-compose to v1.13.5
+
+## 0.23.6
+
+Sat, 04 Mar 2023 00:02:26 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/interactive-hooks to v0.22.23
+
+## 0.23.5
+
+Fri, 03 Mar 2023 06:47:26 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/interactive-hooks to v0.22.22
+- Bump @fluentui-react-native/tokens to v0.20.11
+- Bump @uifabricshared/foundation-compose to v1.13.4
+
+## 0.23.4
+
+Tue, 28 Feb 2023 21:34:10 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/interactive-hooks to v0.22.21
+
+## 0.23.3
+
+Fri, 24 Feb 2023 20:39:57 GMT
+
+### Patches
+
+- Order imports (78454019+lyzhan7@users.noreply.github.com)
+- Bump @fluentui-react-native/adapters to v0.10.2
+- Bump @fluentui-react-native/component-cache to v1.4.4
+- Bump @fluentui-react-native/interactive-hooks to v0.22.20
+- Bump @fluentui-react-native/tokens to v0.20.10
+- Bump @uifabricshared/foundation-composable to v0.11.3
+- Bump @uifabricshared/foundation-compose to v1.13.3
+- Bump @uifabricshared/foundation-settings to v0.12.3
+
+## 0.23.2
+
+Fri, 24 Feb 2023 02:22:40 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/interactive-hooks to v0.22.19
+- Bump @fluentui-react-native/tokens to v0.20.9
+- Bump @uifabricshared/foundation-compose to v1.13.2
+
+## 0.23.1
+
+Sat, 11 Feb 2023 01:32:30 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/interactive-hooks to v0.22.18
+- Bump @fluentui-react-native/tokens to v0.20.8
+- Bump @uifabricshared/foundation-compose to v1.13.1
+
+## 0.23.0
+
+Thu, 09 Feb 2023 22:42:47 GMT
+
+### Minor changes
+
+- support minwidth for menu (email not defined)
+
+## 0.22.0
+
+Mon, 06 Feb 2023 05:53:20 GMT
+
+### Minor changes
+
+- support menu scroll in win32 (email not defined)
+
+## 0.21.59
+
+Fri, 03 Feb 2023 01:49:36 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/interactive-hooks to v0.22.17
+- Bump @uifabricshared/foundation-compose to v1.13.0
+
+## 0.21.58
+
+Thu, 02 Feb 2023 01:29:39 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/interactive-hooks to v0.22.16
+- Bump @uifabricshared/foundation-compose to v1.12.39
+
+## 0.21.57
+
+Wed, 01 Feb 2023 22:33:15 GMT
+
+### Patches
+
+- Enable @typescript-eslint/consistent-type-imports (30809111+acoates-ms@users.noreply.github.com)
+- Bump @fluentui-react-native/adapters to v0.10.1
+- Bump @fluentui-react-native/component-cache to v1.4.3
+- Bump @fluentui-react-native/interactive-hooks to v0.22.15
+- Bump @fluentui-react-native/tokens to v0.20.7
+- Bump @uifabricshared/foundation-composable to v0.11.2
+- Bump @uifabricshared/foundation-compose to v1.12.38
+- Bump @uifabricshared/foundation-settings to v0.12.2
 
 ## 0.21.56
 

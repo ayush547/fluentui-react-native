@@ -12,14 +12,14 @@
  * `{semantic: "windowBackgroundColor"}`
  */
 
-import { ColorValue } from 'react-native';
+import type { ColorValue } from 'react-native';
 
 export type ThemeColorDefinition = Palette & {
   background: ColorValue;
   bodyText: ColorValue;
   subText: ColorValue;
   disabledText: ColorValue;
-  [key: string]: ColorValue;
+  [customColor: string]: ColorValue;
 };
 
 export interface FabricWebPalette {

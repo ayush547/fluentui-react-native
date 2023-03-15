@@ -1,8 +1,139 @@
 # Change Log - @fluentui-react-native/apple-theme
 
-This log was last generated on Mon, 30 Jan 2023 07:12:38 GMT and should not be manually modified.
+This log was last generated on Tue, 14 Mar 2023 20:50:45 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 0.19.0
+
+Tue, 14 Mar 2023 20:50:45 GMT
+
+### Minor changes
+
+- Add numeric font family type (ruaraki@microsoft.com)
+- Bump @fluentui-react-native/default-theme to v0.18.0
+- Bump @fluentui-react-native/experimental-appearance-additions to v0.3.7
+- Bump @fluentui-react-native/theme to v0.8.3
+- Bump @fluentui-react-native/theme-tokens to v0.24.5
+- Bump @fluentui-react-native/theme-types to v0.31.0
+- Bump @fluentui-react-native/theming-utils to v0.23.8
+
+## 0.18.16
+
+Tue, 07 Mar 2023 20:54:15 GMT
+
+### Patches
+
+- Repoint current implementations of isHighContrast to new function (ruaraki@microsoft.com)
+- Bump @fluentui-react-native/default-theme to v0.17.5
+- Bump @fluentui-react-native/experimental-appearance-additions to v0.3.6
+- Bump @fluentui-react-native/theming-utils to v0.23.7
+
+## 0.18.15
+
+Fri, 03 Mar 2023 06:47:26 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/default-theme to v0.17.4
+- Bump @fluentui-react-native/experimental-appearance-additions to v0.3.5
+- Bump @fluentui-react-native/theme to v0.8.2
+- Bump @fluentui-react-native/theme-tokens to v0.24.4
+- Bump @fluentui-react-native/theme-types to v0.30.4
+- Bump @fluentui-react-native/theming-utils to v0.23.6
+
+## 0.18.14
+
+Fri, 24 Feb 2023 20:39:57 GMT
+
+### Patches
+
+- Order imports (78454019+lyzhan7@users.noreply.github.com)
+- Bump @fluentui-react-native/default-theme to v0.17.3
+- Bump @fluentui-react-native/experimental-appearance-additions to v0.3.4
+- Bump @fluentui-react-native/theme to v0.8.1
+- Bump @fluentui-react-native/theme-tokens to v0.24.3
+- Bump @fluentui-react-native/theme-types to v0.30.3
+- Bump @fluentui-react-native/theming-utils to v0.23.5
+
+## 0.18.13
+
+Fri, 24 Feb 2023 02:22:40 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/default-theme to v0.17.2
+- Bump @fluentui-react-native/experimental-appearance-additions to v0.3.3
+- Bump @fluentui-react-native/theming-utils to v0.23.4
+
+## 0.18.12
+
+Wed, 22 Feb 2023 20:36:09 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/experimental-appearance-additions to v0.3.2
+
+## 0.18.11
+
+Sat, 11 Feb 2023 01:32:30 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/default-theme to v0.17.1
+- Bump @fluentui-react-native/experimental-appearance-additions to v0.3.1
+- Bump @fluentui-react-native/theming-utils to v0.23.3
+
+## 0.18.10
+
+Wed, 08 Feb 2023 01:38:39 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/experimental-appearance-additions to v0.3.0
+
+## 0.18.9
+
+Mon, 06 Feb 2023 23:46:59 GMT
+
+### Patches
+
+- Remove old fluent1 apple hardcoded colors (78454019+lyzhan7@users.noreply.github.com)
+
+## 0.18.8
+
+Fri, 03 Feb 2023 01:49:36 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/default-theme to v0.17.0
+- Bump @fluentui-react-native/experimental-appearance-additions to v0.2.4
+- Bump @fluentui-react-native/theme to v0.8.0
+
+## 0.18.7
+
+Thu, 02 Feb 2023 01:29:39 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/default-theme to v0.16.29
+- Bump @fluentui-react-native/experimental-appearance-additions to v0.2.3
+- Bump @fluentui-react-native/theme to v0.7.21
+
+## 0.18.6
+
+Wed, 01 Feb 2023 22:33:15 GMT
+
+### Patches
+
+- Enable @typescript-eslint/consistent-type-imports (30809111+acoates-ms@users.noreply.github.com)
+- Bump @fluentui-react-native/default-theme to v0.16.28
+- Bump @fluentui-react-native/experimental-appearance-additions to v0.2.2
+- Bump @fluentui-react-native/memo-cache to v1.1.8
+- Bump @fluentui-react-native/theme to v0.7.20
+- Bump @fluentui-react-native/theme-tokens to v0.24.2
+- Bump @fluentui-react-native/theme-types to v0.30.2
+- Bump @fluentui-react-native/theming-utils to v0.23.2
 
 ## 0.18.5
 

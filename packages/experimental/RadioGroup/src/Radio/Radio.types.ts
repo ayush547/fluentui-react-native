@@ -1,9 +1,16 @@
+import type { ColorValue, ViewStyle } from 'react-native';
+
 import type { IViewProps } from '@fluentui-react-native/adapters';
-import { TextProps } from '@fluentui-react-native/text';
-import { FontTokens, IForegroundColorTokens, IBackgroundColorTokens, IBorderTokens, IColorTokens } from '@fluentui-react-native/tokens';
-import { IFocusable, PressablePropsExtended, PressableState } from '@fluentui-react-native/interactive-hooks';
-import { ColorValue, ViewStyle } from 'react-native';
-import { Variant } from '@fluentui-react-native/framework';
+import type { Variant } from '@fluentui-react-native/framework';
+import type { IFocusable, PressablePropsExtended, PressableState } from '@fluentui-react-native/interactive-hooks';
+import type { TextProps } from '@fluentui-react-native/text';
+import type {
+  FontTokens,
+  IForegroundColorTokens,
+  IBackgroundColorTokens,
+  IBorderTokens,
+  IColorTokens,
+} from '@fluentui-react-native/tokens';
 
 export const radioName = 'Radio';
 

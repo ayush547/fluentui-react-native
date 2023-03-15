@@ -1,6 +1,7 @@
-import { TokenSettings } from '@fluentui-react-native/framework';
+import type { TokenSettings } from '@fluentui-react-native/framework';
 import { globalTokens } from '@fluentui-react-native/theme-tokens';
-import { PresenceBadgeTokens } from './PresenceBadge.types';
+
+import type { PresenceBadgeTokens } from './PresenceBadge.types';
 
 export const defaultPresenceBadgeTokens: TokenSettings<PresenceBadgeTokens> = (): PresenceBadgeTokens =>
   ({
@@ -37,8 +38,12 @@ export const defaultPresenceBadgeTokens: TokenSettings<PresenceBadgeTokens> = ()
       borderWidth: 2,
     },
     available: getBadgeColor('lightGreen'),
-    away: getBadgeColor('marigold'),
-    awayOutOfOffice: getBadgeColor('berry'),
+    away: {
+      iconColor: globalTokens.color['marigold'].primary,
+      outOfOffice: {
+        iconColor: globalTokens.color['berry'].primary,
+      },
+    },
     busy: getBadgeColor('red'),
     blocked: getBadgeColor('red'),
     unknown: getBadgeColor('red'),

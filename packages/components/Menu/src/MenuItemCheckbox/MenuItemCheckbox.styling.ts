@@ -1,7 +1,10 @@
-import { Theme, UseStylingOptions, buildProps } from '@fluentui-react-native/framework';
+import type { Theme, UseStylingOptions } from '@fluentui-react-native/framework';
+import { buildProps } from '@fluentui-react-native/framework';
 import { borderStyles, fontStyles, layoutStyles } from '@fluentui-react-native/tokens';
+
+import type { MenuItemCheckboxProps, MenuItemCheckboxTokens, MenuItemCheckboxSlotProps } from './MenuItemCheckbox.types';
+import { menuItemCheckboxName } from './MenuItemCheckbox.types';
 import { defaultMenuItemCheckboxTokens } from './MenuItemCheckboxTokens';
-import { menuItemCheckboxName, MenuItemCheckboxProps, MenuItemCheckboxTokens, MenuItemCheckboxSlotProps } from './MenuItemCheckbox.types';
 
 export const menuItemCheckboxStates: (keyof MenuItemCheckboxTokens)[] = ['hovered', 'focused', 'pressed', 'disabled', 'checked'];
 
@@ -42,6 +45,28 @@ export const stylingSettings: UseStylingOptions<MenuItemCheckboxProps, MenuItemC
         },
       }),
       ['color', ...fontStyles.keys],
+    ),
+    iconPlaceholder: buildProps(
+      (tokens: MenuItemCheckboxTokens) => ({
+        style: {
+          minHeight: tokens.iconSize,
+          minWidth: tokens.iconSize,
+          alignItems: 'center',
+          justifyContent: 'center',
+          marginEnd: tokens.gap,
+        },
+      }),
+      ['checkmarkSize', 'gap'],
+    ),
+    imgIcon: buildProps(
+      (tokens: MenuItemCheckboxTokens) => ({
+        style: { tintColor: tokens.iconColor, height: tokens.iconSize, width: tokens.iconSize },
+      }),
+      ['gap', 'iconColor', 'iconSize'],
+    ),
+    fontOrSvgIcon: buildProps(
+      (tokens: MenuItemCheckboxTokens) => ({ color: tokens.iconColor, size: tokens.iconSize }),
+      ['gap', 'iconColor', 'iconSize'],
     ),
   },
 };

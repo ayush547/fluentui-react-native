@@ -1,8 +1,183 @@
 # Change Log - @fluentui-react-native/badge
 
-This log was last generated on Mon, 30 Jan 2023 07:12:38 GMT and should not be manually modified.
+This log was last generated on Tue, 14 Mar 2023 20:50:45 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 0.5.2
+
+Tue, 14 Mar 2023 20:50:45 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/experimental-shadow to v0.2.76
+- Bump @fluentui-react-native/framework to v0.9.6
+- Bump @fluentui-react-native/icon to v0.17.20
+- Bump @fluentui-react-native/text to v0.19.27
+- Bump @fluentui-react-native/theme-tokens to v0.24.5
+- Bump @fluentui-react-native/theme-types to v0.31.0
+- Bump @fluentui-react-native/theming-utils to v0.23.8
+- Bump @fluentui-react-native/tokens to v0.20.12
+
+## 0.5.1
+
+Tue, 07 Mar 2023 20:54:15 GMT
+
+### Patches
+
+- Repoint current implementations of isHighContrast to new function (ruaraki@microsoft.com)
+- Bump @fluentui-react-native/experimental-shadow to v0.2.75
+- Bump @fluentui-react-native/framework to v0.9.5
+- Bump @fluentui-react-native/icon to v0.17.19
+- Bump @fluentui-react-native/text to v0.19.26
+- Bump @fluentui-react-native/theming-utils to v0.23.7
+
+## 0.5.0
+
+Tue, 07 Mar 2023 07:23:34 GMT
+
+### Minor changes
+
+- Add separate svgs feature (ayushsinghs@yahoo.in)
+
+## 0.4.34
+
+Sat, 04 Mar 2023 00:02:26 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/experimental-shadow to v0.2.74
+- Bump @fluentui-react-native/icon to v0.17.18
+- Bump @fluentui-react-native/text to v0.19.25
+
+## 0.4.33
+
+Fri, 03 Mar 2023 06:47:26 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/experimental-shadow to v0.2.73
+- Bump @fluentui-react-native/framework to v0.9.4
+- Bump @fluentui-react-native/icon to v0.17.17
+- Bump @fluentui-react-native/text to v0.19.24
+- Bump @fluentui-react-native/theme-tokens to v0.24.4
+- Bump @fluentui-react-native/theme-types to v0.30.4
+- Bump @fluentui-react-native/tokens to v0.20.11
+
+## 0.4.32
+
+Thu, 02 Mar 2023 19:11:57 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/icon to v0.17.16
+
+## 0.4.31
+
+Tue, 28 Feb 2023 21:34:10 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/experimental-shadow to v0.2.72
+- Bump @fluentui-react-native/icon to v0.17.15
+- Bump @fluentui-react-native/text to v0.19.23
+
+## 0.4.30
+
+Fri, 24 Feb 2023 23:53:36 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/experimental-shadow to v0.2.71
+
+## 0.4.29
+
+Fri, 24 Feb 2023 20:39:57 GMT
+
+### Patches
+
+- Order imports (78454019+lyzhan7@users.noreply.github.com)
+- Bump @fluentui-react-native/adapters to v0.10.2
+- Bump @fluentui-react-native/experimental-shadow to v0.2.70
+- Bump @fluentui-react-native/framework to v0.9.3
+- Bump @fluentui-react-native/icon to v0.17.14
+- Bump @fluentui-react-native/text to v0.19.22
+- Bump @fluentui-react-native/theme-tokens to v0.24.3
+- Bump @fluentui-react-native/theme-types to v0.30.3
+- Bump @fluentui-react-native/tokens to v0.20.10
+- Bump @fluentui-react-native/use-styling to v0.9.4
+
+## 0.4.28
+
+Fri, 24 Feb 2023 02:22:40 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/experimental-shadow to v0.2.69
+- Bump @fluentui-react-native/framework to v0.9.2
+- Bump @fluentui-react-native/icon to v0.17.13
+- Bump @fluentui-react-native/text to v0.19.21
+- Bump @fluentui-react-native/tokens to v0.20.9
+
+## 0.4.27
+
+Tue, 14 Feb 2023 22:22:51 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/experimental-shadow to v0.2.68
+
+## 0.4.26
+
+Sat, 11 Feb 2023 01:32:30 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/experimental-shadow to v0.2.67
+- Bump @fluentui-react-native/framework to v0.9.1
+- Bump @fluentui-react-native/icon to v0.17.12
+- Bump @fluentui-react-native/text to v0.19.20
+- Bump @fluentui-react-native/tokens to v0.20.8
+
+## 0.4.25
+
+Fri, 03 Feb 2023 01:49:36 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/experimental-shadow to v0.2.66
+- Bump @fluentui-react-native/framework to v0.9.0
+- Bump @fluentui-react-native/icon to v0.17.11
+- Bump @fluentui-react-native/text to v0.19.19
+
+## 0.4.24
+
+Thu, 02 Feb 2023 01:29:39 GMT
+
+### Patches
+
+- Bump @fluentui-react-native/experimental-shadow to v0.2.65
+- Bump @fluentui-react-native/framework to v0.8.39
+- Bump @fluentui-react-native/icon to v0.17.10
+- Bump @fluentui-react-native/text to v0.19.18
+- Bump @fluentui-react-native/use-styling to v0.9.3
+
+## 0.4.23
+
+Wed, 01 Feb 2023 22:33:15 GMT
+
+### Patches
+
+- Enable @typescript-eslint/consistent-type-imports (30809111+acoates-ms@users.noreply.github.com)
+- Bump @fluentui-react-native/adapters to v0.10.1
+- Bump @fluentui-react-native/experimental-shadow to v0.2.64
+- Bump @fluentui-react-native/framework to v0.8.38
+- Bump @fluentui-react-native/icon to v0.17.9
+- Bump @fluentui-react-native/text to v0.19.17
+- Bump @fluentui-react-native/theme-tokens to v0.24.2
+- Bump @fluentui-react-native/theme-types to v0.30.2
+- Bump @fluentui-react-native/tokens to v0.20.7
+- Bump @fluentui-react-native/use-styling to v0.9.2
 
 ## 0.4.22
 
