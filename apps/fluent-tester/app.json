@@ -5,7 +5,7 @@
   "components": [{ "appKey": "FluentTester", "displayName": "Fluent Tester", "slug": "fluent-tester" }],
   "android": {
     "icons": "assets/res",
-    "versionCode": 11,
+    "versionCode": 12,
     "signingConfigs": {
       "release": {
         "storeFile": "android/app/myKey.keystore",
